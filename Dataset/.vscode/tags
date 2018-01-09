@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BrownWH.py	../BrownWH.py	1;"	kind:file	line:1
+CategorizedPlaintextCorpusReader	../external_corpus.py	/^from nltk.corpus import CategorizedPlaintextCorpusReader$/;"	kind:namespace	line:2
+brown	../BrownWH.py	/^from nltk.corpus import brown$/;"	kind:namespace	line:2
+external_corpus.py	../external_corpus.py	1;"	kind:file	line:1
+fdist	../BrownWH.py	/^    fdist = nltk.FreqDist(genre_text)$/;"	kind:variable	line:13
+fileN	../external_corpus.py	/^fileN = negFiles[randint(0, len(posFiles) - 1)]$/;"	kind:variable	line:12
+fileP	../external_corpus.py	/^fileP = posFiles[randint(0,len(posFiles)-1)]$/;"	kind:variable	line:11
+files	../Reviews/reuters.py	/^files = reuters.fileids()$/;"	kind:variable	line:2
+genre	../BrownWH.py	/^    genre = genres[i]$/;"	kind:variable	line:9
+genre_text	../BrownWH.py	/^    genre_text = brown.words(categories = genre)$/;"	kind:variable	line:12
+genres	../BrownWH.py	/^genres = ['fiction', 'humor', 'romance', 'sreenath']$/;"	kind:variable	line:5
+negFiles	../external_corpus.py	/^negFiles = reader.fileids(categories='neg')$/;"	kind:variable	line:8
+nltk	../BrownWH.py	/^import nltk$/;"	kind:namespace	line:1
+nltk	../Reviews/tokens/test.py	/^import nltk$/;"	kind:namespace	line:1
+nltk	../external_corpus.py	/^import nltk$/;"	kind:namespace	line:1
+pdf.py	../pdf.py	1;"	kind:file	line:1
+posFiles	../external_corpus.py	/^posFiles = reader.fileids(categories='pos')$/;"	kind:variable	line:7
+randint	../external_corpus.py	/^from random import randint$/;"	kind:namespace	line:10
+reader	../external_corpus.py	/^reader = CategorizedPlaintextCorpusReader(r'\/home\/smadyastha\/Projects\/PythonCheck\/Dataset\/Reviews\/tokens', r'.*\\.txt', cat_pattern=r'(\\w+)\/*')$/;"	kind:variable	line:4
+requestGenres	../Reviews/reuters.py	/^requestGenres = reuters.categories()$/;"	kind:variable	line:5
+reuters	../Reviews/reuters.py	/^from nltk.corpus import reuters$/;"	kind:namespace	line:1
+reuters.py	../Reviews/reuters.py	1;"	kind:file	line:1
+test.py	../Reviews/tokens/test.py	1;"	kind:file	line:1
+whwords	../BrownWH.py	/^whwords = ['What','what','which', 'how', 'why', 'when', 'where', 'who']$/;"	kind:variable	line:6
+words16	../Reviews/reuters.py	/^words16 = reuters.words(['test\/16097'])[:20]$/;"	kind:variable	line:3
